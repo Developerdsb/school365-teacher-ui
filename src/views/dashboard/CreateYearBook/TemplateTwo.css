@@ -1,0 +1,84 @@
+/* ==========================================================================
+ Template Two  Starts
+ ========================================================================== 
+*/
+
+:root #template-2.Imagae_bg {
+  /* background-image: url('file:///C:/Users/Admin/Downloads/Group%201171276333.png'); */
+  width: 100%;
+  position: relative;
+}
+
+:root #template-2 .image_top {
+  width: 23%;
+  height: 30%;
+  background-color: #dfdfdf;
+  border: 5px solid white;
+}
+
+:root #template-2 .single_wide_images {
+  width: 11%;
+  height: 25%;
+  background-color: #dfdfdf;
+  position: absolute;
+  right: 35%;
+  top: 5%;
+  cursor: pointer;
+}
+:root #template-2 .single_wide_images.second {
+  right: 20%;
+  top: 5%;
+}
+:root #template-2 .single_wide_images.third {
+  right: 5%;
+  top: 5%;
+}
+:root #template-2 .single_wide_images.four {
+  right: 35%;
+  top: 38%;
+}
+:root #template-2 .single_wide_images.five {
+  right: 20%;
+  top: 38%;
+}
+:root #template-2 .single_wide_images.six {
+  right: 5%;
+  top: 38%;
+}
+:root #template-2 .single_wide_images.seven {
+  right: 35%;
+  top: 70%;
+}
+:root #template-2 .single_wide_images.eight {
+  right: 20%;
+  top: 70%;
+}
+:root #template-2 .single_wide_images.nine {
+  right: 5%;
+  top: 70%;
+}
+#template-2 .leftpage {
+  width: 50%;
+  background-color: #dfdfdf;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+#template-2 .leftpage img.full-view {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+/* ==========================================================================
+     Template Two  Ends
+     ========================================================================== */
+.EditImage .popup .image-container {
+  gap: 20px !important;
+}
+
+@media only screen and (min-width: 1440px) {
+  img#image-full {
+    max-width: 43em;
+  }
+}

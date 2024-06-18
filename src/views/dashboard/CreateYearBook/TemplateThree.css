@@ -1,0 +1,151 @@
+:root #template-3.Image_bg {
+  /* background-image: url('file:///C:/Users/Admin/Downloads/Group%201171276333.png'); */
+  width: 100%;
+  position: relative;
+}
+
+:root #template-3 .row_block.one-row,
+:root #template-3 .row_block_2.two-row {
+  background-image: url('../../../assets/images/Image-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 71%;
+}
+
+:root #template-3 .row_block {
+  position: absolute;
+  width: 50%;
+  top: 5%;
+  right: 54%;
+  height: 50%;
+  cursor: pointer;
+}
+
+:root #template-3 .row_block_2 {
+  position: absolute;
+  width: 50%;
+  top: 45%;
+  right: 48%;
+  height: 50%;
+  cursor: pointer;
+}
+
+:root #template-3 .single_wide_images {
+  width: 52%;
+  height: 50%;
+  background-color: #dfdfdf;
+  /* border: 5px solid white; */
+  left: 35%;
+  top: 5%;
+}
+
+:root #template-3 .single_wide_images.one,
+:root #template-3 .single_wide_images.two {
+  position: relative;
+  height: 52% !important;
+  border: none !important;
+  top: 24% !important;
+  left: 24% !important;
+}
+
+:root #template-3 .top-wide {
+  position: absolute;
+  width: 23%;
+  top: 10%;
+  left: 55%;
+  height: 42%;
+  background-color: #c9ffb5;
+  box-shadow: 0px 0px 20px 0px #8686865e;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+:root #template-3 .right_wide_images {
+  width: 90%;
+  height: 75%;
+  background-color: #dfdfdf;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  cursor: pointer;
+}
+
+:root #template-3 .center-wide {
+  position: absolute;
+  width: 18%;
+  top: 38%;
+  left: 78%;
+  height: 32%;
+  background-color: #ffffff;
+  /* rotate: -15deg; */
+  box-shadow: 0px 0px 20px 0px #8686865e;
+}
+
+:root #template-3 .bottom-wide {
+  position: absolute;
+  width: 19%;
+  top: 56%;
+  left: 57%;
+  height: 35%;
+  background-color: #ffd3d3;
+  box-shadow: 0px 0px 20px 0px #8686865e;
+  padding-bottom: 14px;
+}
+
+.input-box {
+  position: relative;
+  top: 11px;
+}
+.input-box input[type='text'] {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+}
+#template-3 .input-box input[type='text'] {
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+@media screen and (min-width: 1920px) {
+  #template-3 .input-box input[type='text'] {
+    height: 50px !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #template-3 .input-box input[type='text'] {
+    height: 35px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #template-3 .input-box input[type='text'] {
+    height: 38px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .input-box input[type='text'] {
+    height: 23px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .input-box {
+    top: 5px;
+  }
+  .input-box input[type='text'] {
+    height: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .input-box input[type='text'] {
+    height: 13px;
+  }
+  .input-box {
+    top: 2px;
+  }
+  #template-3 .input-box input[type='text'] {
+    height: 17px;
+  }
+}

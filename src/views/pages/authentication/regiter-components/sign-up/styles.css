@@ -1,0 +1,51 @@
+.phone-input-container.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-6.css-1osj8n2-MuiGrid-root {
+  max-width: 70% !important;
+  flex-basis: 100% !important;
+  margin: auto;
+}
+
+.phone-input-outer input.form-control {
+  width: 100% !important;
+}
+
+.react-tel-input .form-control {
+  border: transparent;
+  border-radius: 8px;
+  height: 40px;
+  color: #9f9fa0;
+}
+
+.react-tel-input .flag-dropdown {
+  background-color: #ffff;
+  border: transparent;
+}
+
+.flag-dropdown:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #d5d5d5;
+  width: 1px;
+  height: 28px;
+  top: 8px;
+  right: -5px;
+}
+
+.read-agree-container {
+  position: relative;
+  margin-bottom: 20px !important;
+  width: 100%;
+  float: left;
+}
+
+.read-agree-checkbox {
+  position: absolute;
+  left: 17%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 426px) {
+  .read-agree-container {
+    margin-bottom: 30px !important;
+  }
+}

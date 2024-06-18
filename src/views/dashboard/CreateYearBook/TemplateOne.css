@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Template One  Starts
+   ========================================================================== 
+*/
+
+:root #template-1.Imagae_bg {
+  /* background-image: url('file:///C:/Users/Admin/Downloads/Group%201171276333.png'); */
+  width: 100%;
+  position: relative;
+}
+
+:root #template-1 .image_top {
+  width: 23%;
+  height: 30%;
+  background-color: #dfdfdf;
+  cursor: pointer;
+  /* border: 5px solid white; */
+}
+
+:root #template-1 .single_wide_images {
+  width: 39%;
+  height: 63%;
+  background-color: #dfdfdf;
+  /* border: 5px solid white; */
+  position: absolute;
+  right: 0;
+  top: 5%;
+  cursor: pointer;
+}
+
+:root #template-1 .first_image {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 17%;
+  height: 33%;
+}
+:root #template-1 .third_image {
+  position: absolute;
+  top: 14%;
+  left: 25%;
+  width: 20%;
+}
+:root #template-1 .second_img {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  width: 17%;
+  height: 25%;
+}
+:root #template-1 .fourth_img {
+  position: absolute;
+  bottom: 24%;
+  left: 25%;
+  width: 22%;
+  height: 25%;
+}
+
+/* .ReactImagePickerEditor .place-image .editing-bar-btn {
+  height: 0!important;
+  width: 0!important;
+  position: absolute;
+  bottom: 1%;
+  } */
+/* ==========================================================================
+   Template One  Ends
+   ========================================================================== */
