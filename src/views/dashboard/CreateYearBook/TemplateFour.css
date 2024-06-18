@@ -1,0 +1,101 @@
+:root #template-4.Image_bg {
+  /* background-image: url('file:///C:/Users/Admin/Downloads/Group%201171276333.png'); */
+  width: 100%;
+  position: relative;
+}
+
+.row_block {
+  position: absolute;
+  width: 60%;
+  top: 6%;
+  right: 49%;
+  height: 50%;
+  cursor: pointer;
+}
+
+:root #template-4 .row_block.one-row {
+  background-image: url('../../../assets/images/ImageBgTemplatefive.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+
+:root #template-4 .row_block_2.two-row {
+  background-image: url('../../../assets/images/ImageBgTemplatefive.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 65%;
+}
+
+:root #template-4 .row_block_2 {
+  position: absolute;
+  width: 63%;
+  top: 43%;
+  right: 39%;
+  height: 50%;
+  cursor: pointer;
+}
+
+:root #template-4 .single_wide_images.one {
+  width: 40%;
+  height: 48%;
+  background-color: #dfdfdf;
+  position: relative;
+  top: 26%;
+  left: 30%;
+  /* rotate: -13deg; */
+  /* z-index: 1; */
+}
+
+:root #template-4 .single_wide_images.two {
+  width: 48%;
+  height: 60%;
+  background-color: #dfdfdf;
+  position: relative;
+  top: 20%;
+  left: 26%;
+  /* rotate: -20deg; */
+  /* z-index: 1; */
+}
+
+:root #template-4 .right.row.one-row {
+  position: absolute;
+  width: 20%;
+  top: 11%;
+  left: 54%;
+  height: 47%;
+  cursor: pointer;
+}
+
+:root #template-4 .right_wide_images {
+  width: 100%;
+  height: 100%;
+  background-color: #dfdfdf;
+  border: 2px solid #4c4c4c;
+  box-shadow: 0px 0px 20px 0px #8686865e;
+  cursor: pointer;
+}
+
+:root #template-4 .right.row.two-row {
+  position: absolute;
+  width: 20%;
+  top: 62%;
+  left: 54%;
+  height: 15%;
+}
+
+:root #template-4 .right.row.three-row {
+  position: absolute;
+  width: 20%;
+  top: 11%;
+  right: 2%;
+  height: 15%;
+}
+
+:root #template-4 .right.row.four-row {
+  position: absolute;
+  width: 20%;
+  top: 30%;
+  right: 2%;
+  height: 47%;
+}

@@ -1,0 +1,147 @@
+/* body {
+    background-color: aquamarine;
+} */
+
+/* Dashboard */
+.item-list {
+    padding: 0px 0px 8px !important;
+}
+
+.raw-ink {
+    min-height: 400px;
+}
+
+.mrgin-top {
+    margin-top: 5px !important;
+}
+
+h2.number-title {
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 200;
+    margin-top: 5px;
+    color: gray;
+}
+
+.raw-ink-top {
+    position: relative;
+}
+
+span.icon-card {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: #00bcd42e;
+    padding: 6px;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+span.icon-card svg {
+    width: 20px;
+    height: 26px;
+    fill: #03A9F4;
+}
+
+.text-title svg {
+    width: 15px;
+    height: 15px;
+    fill: #03A9F4;
+    position: relative;
+    left: 3px;
+    top: 2px;
+}
+
+.spacer {
+    margin: 0px !important;
+    margin-bottom: 5px !important;
+}
+
+.preview_school svg {
+    color: #38c8fd;
+    position: relative;
+    top: 4px;
+}
+
+a.view-all {
+    text-transform: uppercase;
+    text-decoration: inherit;
+    color: #38c7fc;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.content-wrap {
+    height: 300px;
+    overflow-y: scroll;
+    /* padding-right: 20px; */
+
+}
+
+/* width */
+.content-wrap::-webkit-scrollbar {
+    width: 2px;
+    display: none;
+}
+
+/* Track */
+.content-wrap::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.content-wrap::-webkit-scrollbar-thumb {
+    background: #b1b1b1;
+}
+
+/* Handle on hover */
+.content-wrap::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+@media only screen and (max-width: 1550px) {
+    .raw-ink-top>div {
+        padding: 12px;
+    }
+
+    h2.number-title {
+        margin: 0px;
+        font-size: 20px;
+
+    }
+
+    .text-title {
+        font-size: 14px;
+    }
+
+    .mrgin-top .MuiGrid-grid-xs-12 {
+        padding-top: 0px;
+    }
+
+    span.icon-card {
+        width: 32px;
+        height: 32px;
+        bottom: 9px;
+    }
+
+    span.icon-card svg {
+        width: 20px;
+        height: 15px;
+        fill: #03A9F4;
+        position: relative;
+        top: 2px;
+    }
+}
+@media only screen and (max-width: 1441px) {
+    .text-title {
+        min-height: 40px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .text-title {
+        min-height: inherit;
+    }
+}
